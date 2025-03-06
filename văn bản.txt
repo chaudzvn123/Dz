@@ -1,0 +1,16 @@
+local DiscordLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord"))()   
+   local win = DiscordLib:Window("[TaiYeuNgocAnh😍🥰😻❤️ ".." ")   
+local per = game:GetService("Players").LocalPlayer.Name
+ DiscordLib:Notification("Premium Stars ⭐ Share","Hello! ".."⭐"..per..".                                              ".." Thanks For Buy Premium ","Ok") 
+ 
+  local serv = win:Server("Duy Hub", "")  
+  local drops = serv:Channel("inf")
+drops:Button("skill all", function()
+local args = {
+    [1] = Vector3.new(463.48956298828125, 153.37132263183594, -959.290283203125);
+}
+
+game:GetService("Players"):WaitForChild("quocluiiii", 9e9):WaitForChild("Backpack", 9e9):WaitForChild("DragonCombatV2", "Angel",
+"Cid", 9e9):WaitForChild("Z", "X", "C", 9e9):WaitForChild("RemoteEvent", 9e9):FireServer(unpack(args))
+end
+end()
